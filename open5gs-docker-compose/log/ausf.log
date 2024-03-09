@@ -1,0 +1,13 @@
+Open5GS daemon v2.7.0-66-gdcdfc97
+
+03/09 08:42:55.262: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:130)
+03/09 08:42:55.262: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:133)
+03/09 08:42:55.267: [sbi] INFO: NF Service [nausf-auth] (../lib/sbi/context.c:1812)
+03/09 08:42:55.267: [sbi] INFO: nghttp2_server() [http://172.22.0.11]:7777 (../lib/sbi/nghttp2-server.c:414)
+03/09 08:42:55.267: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+03/09 08:42:55.269: [sbi] INFO: [06015426-ddf1-41ee-81a8-8385335dfbe2] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:221)
+03/09 08:42:55.270: [sbi] INFO: [0601cd02-ddf1-41ee-b83b-3335fcd424ff] Subscription created until 2024-03-10T08:42:55.270231+00:00 [duration:86400,validity:86399.999405,patch:43199.999702] (../lib/sbi/nnrf-handler.c:710)
+03/09 08:42:55.270: [sbi] INFO: [0601d3a6-ddf1-41ee-b83b-3335fcd424ff] Subscription created until 2024-03-10T08:42:55.270398+00:00 [duration:86400,validity:86399.999413,patch:43199.999706] (../lib/sbi/nnrf-handler.c:710)
+03/09 08:42:55.372: [sbi] INFO: (NRF-notify) NF registered [0610e878-ddf1-41ee-8dea-0d1979c251a8:1] (../lib/sbi/nnrf-handler.c:926)
+03/09 08:42:55.372: [sbi] INFO: [UDM] (NRF-notify) NF Profile updated [0610e878-ddf1-41ee-8dea-0d1979c251a8:1] (../lib/sbi/nnrf-handler.c:940)
+03/09 08:48:56.494: [ausf] WARNING: [suci-0-001-01-0000-0-0-1234567895] Cannot find SUPI [404] (../src/ausf/ue-sm.c:156)

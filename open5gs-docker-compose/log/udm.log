@@ -1,0 +1,15 @@
+Open5GS daemon v2.7.0-66-gdcdfc97
+
+03/09 08:42:55.366: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:130)
+03/09 08:42:55.366: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:133)
+03/09 08:42:55.369: [sbi] INFO: NF Service [nudm-ueau] (../lib/sbi/context.c:1812)
+03/09 08:42:55.369: [sbi] INFO: NF Service [nudm-uecm] (../lib/sbi/context.c:1812)
+03/09 08:42:55.369: [sbi] INFO: NF Service [nudm-sdm] (../lib/sbi/context.c:1812)
+03/09 08:42:55.370: [sbi] INFO: nghttp2_server() [http://172.22.0.13]:7777 (../lib/sbi/nghttp2-server.c:414)
+03/09 08:42:55.370: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+03/09 08:42:55.373: [sbi] INFO: [0610e878-ddf1-41ee-8dea-0d1979c251a8] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:221)
+03/09 08:42:55.374: [sbi] INFO: [06119dae-ddf1-41ee-b83b-3335fcd424ff] Subscription created until 2024-03-10T08:42:55.373880+00:00 [duration:86400,validity:86399.999468,patch:43199.999734] (../lib/sbi/nnrf-handler.c:710)
+03/09 08:42:55.374: [sbi] INFO: [0611a600-ddf1-41ee-b83b-3335fcd424ff] Subscription created until 2024-03-10T08:42:55.374087+00:00 [duration:86400,validity:86399.999589,patch:43199.999794] (../lib/sbi/nnrf-handler.c:710)
+03/09 08:43:05.269: [sbi] INFO: (NRF-notify) NF registered [0bf6d19e-ddf1-41ee-9d5f-1b2fe0004551:1] (../lib/sbi/nnrf-handler.c:926)
+03/09 08:43:05.269: [sbi] INFO: [UDR] (NRF-notify) NF Profile updated [0bf6d19e-ddf1-41ee-9d5f-1b2fe0004551:1] (../lib/sbi/nnrf-handler.c:940)
+03/09 08:48:56.493: [udm] WARNING: [suci-0-001-01-0000-0-0-1234567895] HTTP response error [404] (../src/udm/nudr-handler.c:86)

@@ -1,0 +1,18 @@
+Open5GS daemon v2.7.0-66-gdcdfc97
+
+03/09 08:43:05.605: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:130)
+03/09 08:43:05.605: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:133)
+03/09 08:43:05.621: [metrics] INFO: metrics_server() [http://172.22.0.27]:9091 (../lib/metrics/prometheus/context.c:299)
+03/09 08:43:05.622: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+03/09 08:43:05.622: [sbi] INFO: NF Service [npcf-am-policy-control] (../lib/sbi/context.c:1812)
+03/09 08:43:05.622: [sbi] INFO: NF Service [npcf-smpolicycontrol] (../lib/sbi/context.c:1812)
+03/09 08:43:05.622: [sbi] INFO: NF Service [npcf-policyauthorization] (../lib/sbi/context.c:1812)
+03/09 08:43:05.622: [sbi] INFO: nghttp2_server() [http://172.22.0.27]:7777 (../lib/sbi/nghttp2-server.c:414)
+03/09 08:43:05.622: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+03/09 08:43:05.630: [sbi] INFO: [0c2d1dbc-ddf1-41ee-b861-1be7614889bd] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:221)
+03/09 08:43:05.632: [sbi] INFO: [0c2ed33c-ddf1-41ee-b83b-3335fcd424ff] Subscription created until 2024-03-10T08:43:05.631636+00:00 [duration:86400,validity:86399.999286,patch:43199.999643] (../lib/sbi/nnrf-handler.c:710)
+03/09 08:43:05.632: [sbi] INFO: [0c2edbb6-ddf1-41ee-b83b-3335fcd424ff] Subscription created until 2024-03-10T08:43:05.631848+00:00 [duration:86400,validity:86399.999135,patch:43199.999567] (../lib/sbi/nnrf-handler.c:710)
+03/09 08:43:05.632: [sbi] INFO: [0c2ede7c-ddf1-41ee-b83b-3335fcd424ff] Subscription created until 2024-03-10T08:43:05.631915+00:00 [duration:86400,validity:86399.999133,patch:43199.999566] (../lib/sbi/nnrf-handler.c:710)
+03/09 08:52:58.348: [sbi] INFO: [UDR] (SCP-discover) NF registered [0bf6d19e-ddf1-41ee-9d5f-1b2fe0004551:1] (../lib/sbi/path.c:211)
+03/09 08:52:58.559: [sbi] WARNING: [UDR] (SCP-discover) NF has already been added [0bf6d19e-ddf1-41ee-9d5f-1b2fe0004551:2] (../lib/sbi/path.c:216)
+03/09 08:52:58.561: [sbi] INFO: [BSF] (SCP-discover) NF registered [0c2a26c0-ddf1-41ee-979e-1f2175ecd3e6:1] (../lib/sbi/path.c:211)
